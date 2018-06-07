@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+ <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css"/>
+    <script src="http://cache.amap.com/lbs/static/es5.min.js"></script>
+    <script src="http://webapi.amap.com/maps?v=1.4.6&key=d93bd571fb3e58e521c57f51593bb59a"></script>
+
+
+</head>
+<body>
+
+<div id="container"></div>
+<div class="button-group">
+    <input id="cityName" class="inputtext" placeholder="请输入城市的名称" type="text"/>
+    <input id="query" class="button" value="到指定的城市" type="button"/>
+</div>
+<script src="//resource-1253383034.file.myqcloud.com/jquery-3.3.1/jquery-3.3.1.min.js"></script>
+<script th:src="@{/static/js/getMap.js}"></script>
+</body>
+</html>

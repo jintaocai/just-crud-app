@@ -1,0 +1,6 @@
+spring:
+  session:
+    store-type: JDBC
+server:
+  port: 9001
+   
